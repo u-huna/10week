@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; } 
+
+h2 { text-align: center; padding: 30px;}
+
+#picSet { border: 5px solid red; width: 1440px; height: 540px; position: relative; margin: 0 auto; overflow: hidden;}  
+#picSet img { border: 2px solid green; position: absolute; top: 0; left: 0; transition: left 1s;} 
+#picSet #pic0 { z-index: 1;}
+
+button { text-align: center; width: 100px; padding: 20px; margin-top: 20px;}
+
+/* #picSet #pic0 {left: 0;}
+#picSet #pic1 {left: 1440px;}
+#picSet #pic2 {left: 2880px;} */
+/* #picSet #pic3 {left: calc(1440px * 2);} */
